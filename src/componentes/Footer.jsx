@@ -6,13 +6,13 @@ import { GrMail } from "react-icons/gr";
 const Footer = () => {
   return (
     <footer className="bg-gray-100">
-      <div className="mx-auto max-w-screen-xl p-4 sm:px-6 lg:px-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
+      <div className="mx-auto max-w-screen-xl p-4 sm:px-6 lg:px-8 ">
+        <div className="flex flex-col items-center  gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex justify-center text-teal-600 sm:justify-start">
             <img src={logo} alt="logo" className=" w-40 h-12 " />
           </div>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 sm:gap-3">
             <div className="flex items-center justify-start gap-2 hover:cursor-pointer">
               <IoLocationSharp className="text-xl text-[#002933]" />
               <p
