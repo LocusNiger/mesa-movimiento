@@ -1,7 +1,7 @@
 export const Titulos = () => {
   return (
     <section className="bg-gray-50">
-      <div className="mx-auto max-w-screen-xl px-4 pt-4 md:py-4 lg:flex lg:flex-col lg:items-center">
+      <div className="mx-auto max-w-screen-xl px-4 pt-4 lg:flex lg:flex-col lg:items-center">
         <h1 className="text-xl text-center md:text-3xl mb-4 font-bold ">
           Dirección general de Mesa de Movimiento
         </h1>

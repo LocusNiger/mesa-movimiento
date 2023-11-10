@@ -40,8 +40,14 @@ const Footer = () => {
             </div>
             <div className="flex items-center justify-start gap-2">
               <GrMail className="text-xl text-[#002933]" />
-              <p className="md:mt-4 text-center text-sm text-[#002933] lg:mt-0 lg:text-right">
-                MAIL
+              <p
+                className="md:mt-4 text-center hover:cursor-pointer hover:underline hover:underline-offset-2 text-sm text-[#002933] lg:mt-0 lg:text-right"
+                onClick={() =>
+                  (window.location.href =
+                    "mailto:dirmesamovimiento@senadosantafe.gob.ar")
+                }
+              >
+                dirmesamovimiento@senadosantafe.gob.ar
               </p>
             </div>
           </div>
