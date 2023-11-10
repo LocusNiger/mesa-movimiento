@@ -12,7 +12,7 @@ const Footer = () => {
             <img src={logo} alt="logo" className=" w-40 h-12 " />
           </div>
 
-          <div className="flex flex-col border border-red-500 gap-2">
+          <div className="flex flex-col gap-2">
             <div className="flex items-center justify-start gap-2 hover:cursor-pointer">
               <IoLocationSharp className="text-xl text-[#002933]" />
               <p
