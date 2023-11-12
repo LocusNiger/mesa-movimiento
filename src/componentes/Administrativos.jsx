@@ -4,7 +4,7 @@ export const Administrativos = () => {
   return (
     <section className="flex flex-col gap-4 justify-center items-center mb-8 px-4 md:px-0">
       <h1 className="text-4xl text-center mb-4 font-bold md:py-4 underline underline-offset-4 text-[#002933]">
-        Trámites administrativos
+        Trámites Administrativos
       </h1>
       <Accordion
         title="Solicitud de bonificación de título"
