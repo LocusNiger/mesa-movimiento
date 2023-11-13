@@ -32,11 +32,11 @@ export const Administrativos = () => {
       />
       <Accordion
         title="Cambio de beneficiario de subsidio"
-        content="Nota con membrete dirigida a Secretaria/o Administrativa/o. Firmada por el/la senador/ra que realiza el pedido con aclaración."
+        content="Nota con membrete dirigida a Secretaria/o Administrativa/o. Firmada por el/la Senador/ra que realiza el pedido con aclaración."
       />
       <Accordion
         title="Alta y baja de agentes"
-        content="Nota con membrete dirigida a Secretaria/o Administrativa/o. Firmada por el/la senador/ra que realiza el pedido con aclaración."
+        content="Nota con membrete dirigida a Secretaria/o Administrativa/o. Firmada por el/la Senador/ra que realiza el pedido con aclaración."
       />
     </section>
   );
